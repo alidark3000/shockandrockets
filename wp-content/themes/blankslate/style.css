@@ -25,13 +25,13 @@ body {max-width: 45em; margin: 0 auto; padding: 0 1.2em; font-family: sans-serif
 @media (prefers-color-scheme: dark) {
   /* defaults to dark theme */
   body { 
-    color: #000;
-    background: #b7b7b7;
+    color: #fff;
+    background: #333;
   }
 	.entry-footer a, .entry-footer a:visited, #footer a, #footer a:visited {
 		color: #d7d7d7!important;
 }
-	a, a:visited {color: #fff!important; }
+	
 
   /* Override dark mode with light mode styles if the user decides to swap */
   body.light-theme {
@@ -170,9 +170,12 @@ ul.wp-block-latest-posts__list li time {margin-left: 1.2em;}
 
 
 
-a, a:visited {color: black; text-decoration: underline;text-decoration-color: #999; text-decoration-thickness: 2px;}
 
-a:hover {text-decoration-color: hotpink; }
+
+a, a:visited {color: fuchsia; text-decoration: none; }
+	a:hover {text-decoration: underline;}
+
+a:hover {text-decoration-color: black; }
 
 
 .archive h2, .single h1 { margin-bottom: 0; }
